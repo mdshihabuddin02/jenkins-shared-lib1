@@ -1,3 +1,3 @@
 def call(Map config = [:]) {
-    sh "${config.path} image ${config.image}:${config.tag}"
+    sh "sudo ${config.path} image ${config.image}:${config.tag}"
 }
